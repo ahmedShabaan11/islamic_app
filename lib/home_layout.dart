@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:islamic_app/tabs/ahdeath.dart';
 import 'package:islamic_app/tabs/quran/quran.dart';
 import 'package:islamic_app/tabs/radio.dart';
-import 'package:islamic_app/tabs/sebha.dart';
+import 'package:islamic_app/tabs/sebha/sebha.dart';
 
 class HomeLayout extends StatefulWidget {
-  HomeLayout({
+  const HomeLayout({
     super.key,
   });
 
