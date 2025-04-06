@@ -142,7 +142,11 @@ class QuranScreen extends StatelessWidget {
                 color: MyThemeData.primaryColor,
               );
             },
-            itemBuilder: (_, index) => Center(child: QuranItem( name: "${name[index]}",)),
+            itemBuilder: (_, index) => Center(
+                child: QuranItem(
+              name: "${name[index]}",
+                  index: index,
+            ),),
             itemCount: name.length,
           ),
         ),
