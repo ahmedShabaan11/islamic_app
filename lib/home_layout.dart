@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:islamic_app/tabs/ahdeath.dart';
+import 'package:islamic_app/tabs/ahadeth/ahdeath.dart';
 import 'package:islamic_app/tabs/quran/quran.dart';
 import 'package:islamic_app/tabs/radio.dart';
 import 'package:islamic_app/tabs/sebha/sebha.dart';
@@ -70,6 +70,6 @@ class _HomeLayoutState extends State<HomeLayout> {
     QuranScreen(),
     SebhaScreen(),
     RadioScreen(),
-    AhdeathScreen()
+AhdeathScreen(),
   ];
 }
